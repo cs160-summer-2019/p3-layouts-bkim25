@@ -14,7 +14,20 @@
 		<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
 	</head>
 	<body>
-		<!-- Your layout here -->
-
+		<!-- Your layout here --> <!-- https://stackoverflow.com/questions/20626685/better-way-to-set-distance-between-flexbox-items margin and padding-->
+    <div style="display: flex; flex: auto; background-color: purple; justify-content: start;">
+      <div style="flex: 0 0 20%;  justify-content: start; margin:0 -15px;">
+        <div  style="flex : auto; background-color: yellow; flex-grow: 1;  margin: 2em; padding: 34% 0;">.</div>
+        <div  style="flex : auto; background-color: yellow; flex-grow: 1;  margin: 2em; padding: 34% 0;">.</div>
+        <div  style="flex : auto; background-color: yellow; flex-grow: 1;  margin: 2em; padding: 34% 0;">.</div>
+      </div>
+      <div style="flex: 0 0 20%;  justify-content: start; margin:0 -15px;">
+        <div  style="flex : auto; background-color: yellow; flex-grow: 1;  margin: 2em; padding: 34% 0;">.</div>
+        <div  style="flex : auto; background-color: yellow; flex-grow: 1;  margin: 2em; padding: 34% 0;">.</div>
+        <div  style="flex : auto; background-color: yellow; flex-grow: 1;  margin: 2em; padding: 34% 0;">.</div>
+      </div>
+      <div style="flex: 0 0 20%;  justify-content: start; margin:0 -15px;">
+        <div  style="flex : auto; background-color: yellow; flex-grow: 1;  margin: 2em; padding: 34% 0;">.</div>
+      </div>
 	</body>
 </html>
